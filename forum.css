@@ -16,6 +16,9 @@ ul.blockLinksList li {
 ul.blockLinksList li:hover {
     transform: scale(1.1);
     opacity: 1;
+}
+
+ul.blockLinksList span:hover {
     color: rgb(0,186,120);
 }
 
@@ -35,6 +38,9 @@ ul.blockLinksList li:hover {
 .navLink:hover {
     transform: scale(1.1);
     opacity: 1;
+}
+
+.navLink span:hover {
     color: rgb(0,186,120);
 }
 
@@ -57,5 +63,8 @@ ul.alertsTabs li {
 ul.alertsTabs li:hover {
     transform: scale(1.1);
     opacity: 1;
+}
+
+ul.alertsTabs span:hover {
     color: rgb(0,186,120);
 }
