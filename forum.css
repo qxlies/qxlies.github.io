@@ -1,31 +1,72 @@
-#lzt-logo,
-ul.blockLinksList li,
-.button,
-.navLink,
-.navigationCogIcon::before,
-.AlertsClear::before,
-ul.alertsTabs li,
-section {
+/* top bar */
+
+#lzt-logo {
+    transition: all 0.5s;
+    opacity: 0.8;
+}
+#lzt-logo:hover {
+    opacity: 1;
+    transform: scale(1.04);
+}
+
+ul.blockLinksList li {
+    transition: all 0.5s;
+    opacity: 0.8;
+}
+ul.blockLinksList li:hover {
+    transform: scale(1.04);
+    opacity: 1;
+}
+
+.navLink {
     transition: all 0.5s;
     opacity: 0.8;
 }
 
-#lzt-logo:hover,
-.navLink:hover,
-ul.alertsTabs li:hover,
+.navLink:hover {
+    transform: scale(1.04);
+    opacity: 1;
+}
+
+/* account links */
+
+.navigationCogIcon::before,
+.AlertsClear::before {
+    transition: all 1.0s;
+    opacity: 0.8;
+}
+
 .navigationCogIcon:hover,
-.AlertsClear:hover,
-section:hover {
-    opacity: 1;
+.AlertsClear:hover {
     transform: scale(1.04);
+    opacity: 1;
 }
 
-ul.blockLinksList li:hover {
-    opacity: 1;
-    transform: scale(1.04);
-    transform-origin: left;
+ul.alertsTabs li {
+    transition: all 0.5s;
+    opacity: 0.8;
 }
 
+ul.alertsTabs li:hover {
+    transform: scale(1.04);
+    opacity: 1;
+}
+
+/* section */
+
+.button {
+    transition: all 0.5s;
+}
 .button:hover {
     transform: scale(1.05);
+}
+
+.section .forums li {
+    transition: all 0.5s;
+    opacity: 0.8;
+}
+
+.section .forums li:hover {
+    transform: scale(1.04);
+    opacity: 1;
 }
