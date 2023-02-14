@@ -8,14 +8,22 @@
     transform: scale(1.1);
 }
 
-.button {
+ul.blockLinksList li {
     transition: all 0.5s;
     opacity: 0.8;
 }
 
-.button:hover {
+ul.blockLinksList li:hover {
     transform: scale(1.1);
     opacity: 1;
+}
+
+.button {
+    transition: all 0.5s;
+}
+
+.button:hover {
+    transform: scale(1.0);
 }
 
 .navLink {
@@ -39,14 +47,12 @@
     transform: scale(1.1);
 }
 
-.AlertsClear::after {
-    color: brown;
-}
-
 ul.alertsTabs li {
     transition: all 0.5s;
+    opacity: 0.8;
 }
 
 ul.alertsTabs li:hover {
     transform: scale(1.1);
+    opacity: 1;
 }
