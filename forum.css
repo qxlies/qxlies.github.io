@@ -4,7 +4,8 @@ ul.blockLinksList li,
 .navLink,
 .navigationCogIcon::before,
 .AlertsClear::before,
-ul.alertsTabs li {
+ul.alertsTabs li,
+section {
     transition: all 0.5s;
     opacity: 0.8;
 }
@@ -13,7 +14,8 @@ ul.alertsTabs li {
 .navLink:hover,
 ul.alertsTabs li:hover,
 .navigationCogIcon:hover,
-.AlertsClear:hover {
+.AlertsClear:hover,
+section:hover {
     opacity: 1;
     transform: scale(1.04);
 }
