@@ -1,71 +1,24 @@
-#lzt-logo {
-    transition: all 0.5s;
-    opacity: 0.8;
-}
-
-#lzt-logo:hover {
-    opacity: 1;
-    transform: scale(1.1);
-}
-
-ul.blockLinksList li {
-    transition: all 0.5s;
-    opacity: 0.8;
-}
-
-ul.blockLinksList li:hover {
-    transform: scale(1.1);
-    opacity: 1;
-}
-
-ul.blockLinksList li:hover a::before {
-    color: rgb(0,186,120);
-}
-
-.button {
-    transition: all 0.5s;
-}
-
-.button:hover {
-    transform: scale(1.050);
-}
-
-.navLink {
-    transition: all 0.5s;
-    opacity: 0.8;
-}
-
-.navLink:hover {
-    transform: scale(1.1);
-    opacity: 1;
-}
-
-.navLink li:hover a {
-    color: rgb(0,186,120);
-}
-
+#lzt-logo,
+ul.blockLinksList li,
+.button,
+.navLink,
 .navigationCogIcon::before,
-.AlertsClear::before {
-    transition: all 1.0s;
-    opacity: 0.8;
-}
-
-.navigationCogIcon:hover,
-.AlertsClear:hover {
-    transform: scale(1.1);
-    opacity: 1;
-}
-
+.AlertsClear::before,
 ul.alertsTabs li {
     transition: all 0.5s;
     opacity: 0.8;
 }
 
-ul.alertsTabs li:hover {
-    transform: scale(1.1);
+#lzt-logo:hover,
+ul.blockLinksList li:hover,
+.navLink:hover,
+ul.alertsTabs li:hover,
+.navigationCogIcon:hover,
+.AlertsClear:hover {
     opacity: 1;
+    transform: scale(1.1);
 }
 
-ul.alertsTabs li:hover a {
-    color: rgb(0,186,120);
+.button:hover {
+    transform: scale(1.050);
 }
