@@ -9,14 +9,18 @@ ul.alertsTabs li {
     opacity: 0.8;
 }
 
-#lzt-logo:hover,
-ul.blockLinksList li:hover,
+#lzt-logo:hover,,
 .navLink:hover,
 ul.alertsTabs li:hover,
 .navigationCogIcon:hover,
 .AlertsClear:hover {
     opacity: 1;
     transform: scale(1.1);
+}
+
+ul.blockLinksList li:hover {
+    opacity: 1;
+    transform: scale(1.1, 1.1);
 }
 
 .button:hover {
