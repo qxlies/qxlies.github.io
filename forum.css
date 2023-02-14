@@ -18,7 +18,7 @@ ul.blockLinksList li:hover {
     opacity: 1;
 }
 
-ul.blockLinksList li:hover span {
+ul.blockLinksList li:hover a {
     color: rgb(0,186,120);
 }
 
@@ -40,7 +40,7 @@ ul.blockLinksList li:hover span {
     opacity: 1;
 }
 
-.navLink li:hover span {
+.navLink li:hover a {
     color: rgb(0,186,120);
 }
 
@@ -65,6 +65,6 @@ ul.alertsTabs li:hover {
     opacity: 1;
 }
 
-ul.alertsTabs li:hover span {
+ul.alertsTabs li:hover a {
     color: rgb(0,186,120);
 }
