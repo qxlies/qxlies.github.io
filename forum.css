@@ -1,0 +1,54 @@
+#lzt-logo {
+    transition: all 0.5s;
+    opacity: 0.8;
+}
+
+#lzt-logo:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.button {
+    transition: all 0.5s;
+    opacity: 0.8;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.navLink {
+    transition: all 0.5s;
+    opacity: 0.8;
+}
+
+.navLink:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.navigationCogIcon::before,
+.AlertsClear::before {
+    transition: all 1.0s;
+    opacity: 0.8;
+}
+
+.navigationCogIcon:hover,
+.AlertsClear:hover {
+    transform: scale(1.1);
+}
+
+.AlertsClear::after {
+    color: brown;
+}
+
+ul.alertsTabs li {
+    transition: all 0.5s;
+    opacity: 0.8;
+}
+
+ul.alertsTabs li:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
