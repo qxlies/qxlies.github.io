@@ -16,6 +16,7 @@ ul.blockLinksList li {
 ul.blockLinksList li:hover {
     transform: scale(1.1);
     opacity: 1;
+    color: rgb(34, 142, 93);
 }
 
 .button {
@@ -34,6 +35,7 @@ ul.blockLinksList li:hover {
 .navLink:hover {
     transform: scale(1.1);
     opacity: 1;
+    color: rgb(34, 142, 93);
 }
 
 .navigationCogIcon::before,
@@ -45,6 +47,7 @@ ul.blockLinksList li:hover {
 .navigationCogIcon:hover,
 .AlertsClear:hover {
     transform: scale(1.1);
+    color: rgb(34, 142, 93);
 }
 
 ul.alertsTabs li {
@@ -55,4 +58,5 @@ ul.alertsTabs li {
 ul.alertsTabs li:hover {
     transform: scale(1.1);
     opacity: 1;
+    color: rgb(34, 142, 93);
 }
