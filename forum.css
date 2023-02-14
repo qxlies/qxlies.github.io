@@ -20,7 +20,7 @@ ul.alertsTabs li:hover,
 
 ul.blockLinksList li:hover {
     opacity: 1;
-    transform: scale(1.1, 1.1);
+    transform: scale(1.1, 0);
 }
 
 .button:hover {
