@@ -15,15 +15,15 @@ ul.alertsTabs li:hover,
 .navigationCogIcon:hover,
 .AlertsClear:hover {
     opacity: 1;
-    transform: scale(0.4);
+    transform: scale(1.04);
 }
 
 ul.blockLinksList li:hover {
     opacity: 1;
-    transform: scale(0.4);
+    transform: scale(1.04);
     transform-origin: left;
 }
 
 .button:hover {
-    transform: scale(1.050);
+    transform: scale(1.05);
 }
