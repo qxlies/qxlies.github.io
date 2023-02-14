@@ -18,7 +18,7 @@ ul.blockLinksList li:hover {
     opacity: 1;
 }
 
-ul.blockLinksList li:hover a {
+ul.blockLinksList li:hover a::before {
     color: rgb(0,186,120);
 }
 
