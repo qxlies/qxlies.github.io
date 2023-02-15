@@ -72,6 +72,6 @@ ul.alertsTabs li:hover {
     opacity: 1;
 }
 
-.subForumList.current li.node {
+.nodeList .subForumList.current h4.nodeTitle {
     transition: all 0.5s;
 }
