@@ -68,5 +68,6 @@ ul.alertsTabs li:hover {
 
 .section li:hover {
     transform: scale(1.04);
+    transform-origin: bottom;
     opacity: 1;
 }
