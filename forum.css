@@ -61,12 +61,21 @@ ul.alertsTabs li:hover {
     transform: scale(1.05);
 }
 
-.section .list.node li {
+.section .nodeInfo.forumNodeInfo .nodeText h3.nodeTitle span a {
+    transition: all 0.5s;
+    opacity: 0.8;
+}
+.section .nodeInfo.forumNodeInfo .nodeText h3.nodeTitle span a:hover {
+    transform: scale(1.04);
+    opacity: 1;
+}
+
+/* .section .list.node li {
     transition: all 0.5s;
     opacity: 0.8;
 }
 
-.section .list.node li:hover {
+.section  .list.node li:hover {
     transform: scale(1.04);
     opacity: 1;
 }
@@ -76,4 +85,4 @@ ul.alertsTabs li:hover {
     transform-origin: left;
     opacity: 1;
 
-}
+} */
