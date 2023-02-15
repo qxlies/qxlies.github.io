@@ -61,17 +61,17 @@ ul.alertsTabs li:hover {
     transform: scale(1.05);
 }
 
-.section .list.node .forums li {
+.section .list.node li {
     transition: all 0.5s;
     opacity: 0.8;
 }
 
-.section .list.node .forums li:hover {
+.section .list.node li:hover {
     transform: scale(1.04);
     opacity: 1;
 }
 
-.section .node.forum.level-n span a:hover {
+.section .node.forum.level-n h4.nodeTitle a:hover {
     transform: scale(1.04);
     transform-origin: left;
     opacity: 1;
