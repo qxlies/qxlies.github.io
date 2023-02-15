@@ -71,3 +71,7 @@ ul.alertsTabs li:hover {
     transform-origin: left;
     opacity: 1;
 }
+
+.subForumList.current li.node {
+    transition: all 0.5s;
+}
