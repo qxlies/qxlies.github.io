@@ -66,8 +66,15 @@ ul.alertsTabs li:hover {
     opacity: 0.8;
 }
 
-.section li:hover {
-    transform: scale(1.04);
+#\31 03 > ol > li.list.node.node9.forum.level_2
+
+.nodeList .list.node .nodeText {
+    transition: all 0.5s;
+    opacity: 0.8;
+}
+
+.nodeList .list.node .nodeText:hover {
+    transform: scale(1.02);
     transform-origin: left;
     opacity: 1;
 }
