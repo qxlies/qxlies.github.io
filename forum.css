@@ -22,7 +22,6 @@ ul.blockLinksList li:hover {
     transition: all 0.5s;
     opacity: 0.8;
 }
-
 .navLink:hover {
     transform: scale(1.04);
     opacity: 1;
@@ -46,7 +45,6 @@ ul.alertsTabs li {
     transition: all 0.5s;
     opacity: 0.8;
 }
-
 ul.alertsTabs li:hover {
     transform: scale(1.04);
     opacity: 1;
@@ -65,7 +63,6 @@ ul.alertsTabs li:hover {
     transition: all 0.5s;
     opacity: 0.9;
 }
-
 .nodeList .list.node .nodeText:hover {
     transform: scale(1.02);
     transform-origin: left;
@@ -74,4 +71,15 @@ ul.alertsTabs li:hover {
 
 .nodeList .subForumList.current h4.nodeTitle {
     transition: all 0.5s;
+}
+
+/* discuss create */
+
+.fr-toolbar button{
+    transition: all 0.5s;
+}
+
+.fr-toolbar button:hover {
+    transform: scale(1.02);
+    opacity: 1;
 }
